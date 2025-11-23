@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-22T19:52:05.930565",
+    "questions_file": "/Users/rossir/Documents/uchicago/classes/deep-learning-systems/lab3/mcqa_output/llama70.json",
+    "grader_model": "oss120",
+    "random_sample_size": 30,
+    "parallel_workers": 4,
+    "random_seed": 42,
+    "format_type": null,
+    "verbose": false,
+    "save_incorrect": false,
+    "total_models_tested": 2,
+    "successful_runs": 2,
+    "failed_runs": 0,
+    "unavailable_models": [
+      "qwen80",
+      "oss20"
+    ]
+  },
+  "summary": [
+    {
+      "model": "llama70",
+      "success": true,
+      "accuracy_percent": 100.0,
+      "average_confidence": 0.99,
+      "runtime_seconds": 38.05909013748169,
+      "error": null
+    },
+    {
+      "model": "oss120",
+      "success": true,
+      "accuracy_percent": 100.0,
+      "average_confidence": 0.99,
+      "runtime_seconds": 31.6645028591156,
+      "error": null
+    }
+  ],
+  "detailed_results": [
+    {
+      "model": "llama70",
+      "success": true,
+      "stdout": "Testing model: llama70 (llama70)\nGrading with: oss120 (oss120)\nParallel workers: 4\n\nTesting server connectivity...\nChecking connectivity to test model (llama70)... \u2713 OK\nChecking connectivity to grader model (oss120)... \u2713 OK\nAll servers are reachable. Proceeding with evaluation...\n\nRequested 30 questions, but dataset only has 30. Using all questions.\nAuto-detected question format: mc\n\nProcessing 30 questions with 4 parallel workers...\nThis may take some time. Each model call has built-in retries and waiting.\n\n\n============================================================\nEVALUATION RESULTS\n============================================================\nOverall accuracy: 100.00% (30.0/30)\nMultiple-choice questions: 100.00% accuracy (30/30)\nAverage MC confidence: 0.99\nTotal processing time: 36.87 seconds\n============================================================\n\nDetailed results saved to: results_llama70_20251122_195134.json\n",
+      "stderr": "\nProcessing questions:   0%|          | 0/30 [00:00<?, ?it/s]\nProcessing questions:   3%|\u258e         | 1/30 [00:04<02:16,  4.70s/it]\nProcessing questions:  13%|\u2588\u258e        | 4/30 [00:05<00:27,  1.08s/it]\nProcessing questions:  17%|\u2588\u258b        | 5/30 [00:09<00:46,  1.85s/it]\nProcessing questions:  20%|\u2588\u2588        | 6/30 [00:09<00:32,  1.36s/it]\nProcessing questions:  23%|\u2588\u2588\u258e       | 7/30 [00:09<00:23,  1.04s/it]\nProcessing questions:  30%|\u2588\u2588\u2588       | 9/30 [00:13<00:29,  1.39s/it]\nProcessing questions:  33%|\u2588\u2588\u2588\u258e      | 10/30 [00:14<00:25,  1.25s/it]\nProcessing questions:  43%|\u2588\u2588\u2588\u2588\u258e     | 13/30 [00:18<00:21,  1.28s/it]\nProcessing questions:  50%|\u2588\u2588\u2588\u2588\u2588     | 15/30 [00:18<00:13,  1.07it/s]\nProcessing questions:  53%|\u2588\u2588\u2588\u2588\u2588\u258e    | 16/30 [00:19<00:12,  1.16it/s]\nProcessing questions:  57%|\u2588\u2588\u2588\u2588\u2588\u258b    | 17/30 [00:22<00:19,  1.50s/it]\nProcessing questions:  60%|\u2588\u2588\u2588\u2588\u2588\u2588    | 18/30 [00:23<00:14,  1.24s/it]\nProcessing questions:  63%|\u2588\u2588\u2588\u2588\u2588\u2588\u258e   | 19/30 [00:23<00:10,  1.04it/s]\nProcessing questions:  67%|\u2588\u2588\u2588\u2588\u2588\u2588\u258b   | 20/30 [00:23<00:07,  1.25it/s]\nProcessing questions:  70%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588   | 21/30 [00:27<00:13,  1.48s/it]\nProcessing questions:  73%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e  | 22/30 [00:27<00:09,  1.15s/it]\nProcessing questions:  77%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258b  | 23/30 [00:28<00:07,  1.06s/it]\nProcessing questions:  83%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e | 25/30 [00:31<00:07,  1.42s/it]\nProcessing questions:  87%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258b | 26/30 [00:32<00:04,  1.11s/it]\nProcessing questions:  90%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 | 27/30 [00:32<00:02,  1.03it/s]\nProcessing questions:  93%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e| 28/30 [00:33<00:01,  1.21it/s]\nProcessing questions:  97%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258b| 29/30 [00:36<00:01,  1.46s/it]\nProcessing questions: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 30/30 [00:36<00:00,  1.25s/it]\nProcessing questions: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 30/30 [00:36<00:00,  1.23s/it]\n",
+      "runtime_seconds": 38.05909013748169,
+      "returncode": 0
+    },
+    {
+      "model": "oss120",
+      "success": true,
+      "stdout": "Testing model: oss120 (oss120)\nGrading with: oss120 (oss120)\nParallel workers: 4\n\nTesting server connectivity...\nChecking connectivity to test model (oss120)... \u2713 OK\nChecking connectivity to grader model (oss120)... \u2713 OK\nAll servers are reachable. Proceeding with evaluation...\n\nRequested 30 questions, but dataset only has 30. Using all questions.\nAuto-detected question format: mc\n\nProcessing 30 questions with 4 parallel workers...\nThis may take some time. Each model call has built-in retries and waiting.\n\n\n============================================================\nEVALUATION RESULTS\n============================================================\nOverall accuracy: 100.00% (30.0/30)\nMultiple-choice questions: 100.00% accuracy (30/30)\nAverage MC confidence: 0.99\nTotal processing time: 30.68 seconds\n============================================================\n\nDetailed results saved to: results_oss120_20251122_195205.json\n",
+      "stderr": "\nProcessing questions:   0%|          | 0/30 [00:00<?, ?it/s]\nProcessing questions:   3%|\u258e         | 1/30 [00:03<01:47,  3.72s/it]\nProcessing questions:   7%|\u258b         | 2/30 [00:04<00:48,  1.73s/it]\nProcessing questions:  10%|\u2588         | 3/30 [00:04<00:34,  1.27s/it]\nProcessing questions:  13%|\u2588\u258e        | 4/30 [00:04<00:21,  1.19it/s]\nProcessing questions:  17%|\u2588\u258b        | 5/30 [00:07<00:33,  1.34s/it]\nProcessing questions:  20%|\u2588\u2588        | 6/30 [00:07<00:25,  1.06s/it]\nProcessing questions:  23%|\u2588\u2588\u258e       | 7/30 [00:08<00:25,  1.10s/it]\nProcessing questions:  30%|\u2588\u2588\u2588       | 9/30 [00:11<00:24,  1.17s/it]\nProcessing questions:  33%|\u2588\u2588\u2588\u258e      | 10/30 [00:11<00:18,  1.10it/s]\nProcessing questions:  37%|\u2588\u2588\u2588\u258b      | 11/30 [00:12<00:16,  1.15it/s]\nProcessing questions:  40%|\u2588\u2588\u2588\u2588      | 12/30 [00:13<00:17,  1.05it/s]\nProcessing questions:  43%|\u2588\u2588\u2588\u2588\u258e     | 13/30 [00:14<00:18,  1.09s/it]\nProcessing questions:  47%|\u2588\u2588\u2588\u2588\u258b     | 14/30 [00:15<00:15,  1.01it/s]\nProcessing questions:  50%|\u2588\u2588\u2588\u2588\u2588     | 15/30 [00:16<00:14,  1.01it/s]\nProcessing questions:  53%|\u2588\u2588\u2588\u2588\u2588\u258e    | 16/30 [00:17<00:12,  1.12it/s]\nProcessing questions:  57%|\u2588\u2588\u2588\u2588\u2588\u258b    | 17/30 [00:19<00:14,  1.15s/it]\nProcessing questions:  60%|\u2588\u2588\u2588\u2588\u2588\u2588    | 18/30 [00:19<00:10,  1.11it/s]\nProcessing questions:  63%|\u2588\u2588\u2588\u2588\u2588\u2588\u258e   | 19/30 [00:21<00:13,  1.20s/it]\nProcessing questions:  67%|\u2588\u2588\u2588\u2588\u2588\u2588\u258b   | 20/30 [00:21<00:09,  1.01it/s]\nProcessing questions:  70%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588   | 21/30 [00:22<00:07,  1.19it/s]\nProcessing questions:  73%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e  | 22/30 [00:23<00:07,  1.01it/s]\nProcessing questions:  77%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258b  | 23/30 [00:24<00:07,  1.05s/it]\nProcessing questions:  80%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588  | 24/30 [00:25<00:05,  1.12it/s]\nProcessing questions:  83%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e | 25/30 [00:26<00:05,  1.03s/it]\nProcessing questions:  87%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258b | 26/30 [00:26<00:03,  1.29it/s]\nProcessing questions:  90%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 | 27/30 [00:28<00:03,  1.10s/it]\nProcessing questions:  93%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e| 28/30 [00:28<00:01,  1.22it/s]\nProcessing questions:  97%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258b| 29/30 [00:30<00:00,  1.01it/s]\nProcessing questions: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 30/30 [00:30<00:00,  1.23it/s]\nProcessing questions: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 30/30 [00:30<00:00,  1.02s/it]\n",
+      "runtime_seconds": 31.6645028591156,
+      "returncode": 0
+    }
+  ]
+}

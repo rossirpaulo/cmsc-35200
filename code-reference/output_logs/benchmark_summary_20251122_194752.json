@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-22T19:47:52.928667",
+    "questions_file": "/Users/rossir/Documents/uchicago/classes/deep-learning-systems/lab3/mcqa_output/llama70.json",
+    "grader_model": "llama70",
+    "random_sample_size": 30,
+    "parallel_workers": 4,
+    "random_seed": 42,
+    "format_type": null,
+    "verbose": false,
+    "save_incorrect": false,
+    "total_models_tested": 2,
+    "successful_runs": 0,
+    "failed_runs": 2,
+    "unavailable_models": [
+      "qwen80",
+      "oss20"
+    ]
+  },
+  "summary": [
+    {
+      "model": "llama70",
+      "success": false,
+      "accuracy_percent": null,
+      "average_confidence": null,
+      "runtime_seconds": 0.05802011489868164,
+      "error": "Traceback (most recent call last):\n  File \"/Users/rossir/Documents/uchicago/classes/deep-learning-systems/lab3/argonium/argonium_score_parallel_v9.py\", line 48, in <module>\n    import backoff\nModuleNotFoundError: No module named 'backoff'\n"
+    },
+    {
+      "model": "oss120",
+      "success": false,
+      "accuracy_percent": null,
+      "average_confidence": null,
+      "runtime_seconds": 0.0339970588684082,
+      "error": "Traceback (most recent call last):\n  File \"/Users/rossir/Documents/uchicago/classes/deep-learning-systems/lab3/argonium/argonium_score_parallel_v9.py\", line 48, in <module>\n    import backoff\nModuleNotFoundError: No module named 'backoff'\n"
+    }
+  ],
+  "detailed_results": [
+    {
+      "model": "llama70",
+      "success": false,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/rossir/Documents/uchicago/classes/deep-learning-systems/lab3/argonium/argonium_score_parallel_v9.py\", line 48, in <module>\n    import backoff\nModuleNotFoundError: No module named 'backoff'\n",
+      "runtime_seconds": 0.05802011489868164,
+      "returncode": 1
+    },
+    {
+      "model": "oss120",
+      "success": false,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/rossir/Documents/uchicago/classes/deep-learning-systems/lab3/argonium/argonium_score_parallel_v9.py\", line 48, in <module>\n    import backoff\nModuleNotFoundError: No module named 'backoff'\n",
+      "runtime_seconds": 0.0339970588684082,
+      "returncode": 1
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# CELS Server Configurations for robin_testing_v2.py
+# Last updated: 2025-04-20
+
+servers:
+
+  # Llama 3.3 70B model on rbdgx2 server
+  - server: "rbdgx2.cels.anl.gov"
+    shortname: "llama70"
+    openai_api_key: "CELS"
+    openai_api_base: "http://103.101.203.226:80/v1"
+    openai_model: "llama70"
+
+  # oss120 model on rbh101 server
+  - server: "rbh101.cels.anl.gov"
+    shortname: "oss120"
+    openai_api_key: "CELS"
+    openai_api_base: "http://66.55.67.65:80/v1"
+    openai_model: "oss120"
+
+  # Local Ollama models
+  - server: "localhost"
+    shortname: "gemma2"
+    openai_api_key: "ollama"
+    openai_api_base: "http://localhost:11434/v1"
+    openai_model: "gemma2:2b"
+
+  - server: "localhost"
+    shortname: "llama3.2"
+    openai_api_key: "ollama"
+    openai_api_base: "http://localhost:11434/v1"
+    openai_model: "llama3.2:latest"

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-23T00:02:14.114485",
+    "questions_file": "/Users/rossir/Documents/uchicago/classes/deep-learning-systems/lab3/mcqa_output/llama70.json",
+    "grader_model": "llama3.2",
+    "random_sample_size": 30,
+    "parallel_workers": 1,
+    "random_seed": 42,
+    "format_type": null,
+    "verbose": false,
+    "save_incorrect": false,
+    "total_models_tested": 4,
+    "successful_runs": 4,
+    "failed_runs": 0,
+    "unavailable_models": []
+  },
+  "summary": [
+    {
+      "model": "llama70",
+      "success": true,
+      "accuracy_percent": 100.0,
+      "average_confidence": 1.0,
+      "runtime_seconds": 155.71261191368103,
+      "error": null
+    },
+    {
+      "model": "oss120",
+      "success": true,
+      "accuracy_percent": 100.0,
+      "average_confidence": 1.0,
+      "runtime_seconds": 172.7854688167572,
+      "error": null
+    },
+    {
+      "model": "gemma2",
+      "success": true,
+      "accuracy_percent": 100.0,
+      "average_confidence": 1.0,
+      "runtime_seconds": 244.48715496063232,
+      "error": null
+    },
+    {
+      "model": "llama3.2",
+      "success": true,
+      "accuracy_percent": 90.0,
+      "average_confidence": 0.99,
+      "runtime_seconds": 311.21177887916565,
+      "error": null
+    }
+  ],
+  "detailed_results": [
+    {
+      "model": "llama70",
+      "success": true,
+      "stdout": "Testing model: llama70 (llama70)\nGrading with: llama3.2 (llama3.2:latest)\nParallel workers: 1\n\nTesting server connectivity...\nChecking connectivity to test model (llama70)... \u2713 OK\nChecking connectivity to grader model (llama3.2)... \u2713 OK\nAll servers are reachable. Proceeding with evaluation...\n\nRequested 30 questions, but dataset only has 30. Using all questions.\nAuto-detected question format: mc\n\nProcessing 30 questions sequentially...\nThis may take some time. Each model call has built-in retries and waiting.\nCompleted 1/30 questions | Running accuracy: 100.0%\nCompleted 2/30 questions | Running accuracy: 100.0%\nCompleted 3/30 questions | Running accuracy: 100.0%\nCompleted 4/30 questions | Running accuracy: 100.0%\nCompleted 5/30 questions | Running accuracy: 100.0%\nCompleted 6/30 questions | Running accuracy: 100.0%\nCompleted 7/30 questions | Running accuracy: 100.0%\nCompleted 8/30 questions | Running accuracy: 100.0%\nCompleted 9/30 questions | Running accuracy: 100.0%\nCompleted 10/30 questions | Running accuracy: 100.0%\nCompleted 11/30 questions | Running accuracy: 100.0%\nCompleted 12/30 questions | Running accuracy: 100.0%\nCompleted 13/30 questions | Running accuracy: 100.0%\nCompleted 14/30 questions | Running accuracy: 100.0%\nCompleted 15/30 questions | Running accuracy: 100.0%\nCompleted 16/30 questions | Running accuracy: 100.0%\nCompleted 17/30 questions | Running accuracy: 100.0%\nCompleted 18/30 questions | Running accuracy: 100.0%\nCompleted 19/30 questions | Running accuracy: 100.0%\nCompleted 20/30 questions | Running accuracy: 100.0%\nCompleted 21/30 questions | Running accuracy: 100.0%\nCompleted 22/30 questions | Running accuracy: 100.0%\nCompleted 23/30 questions | Running accuracy: 100.0%\nCompleted 24/30 questions | Running accuracy: 100.0%\nCompleted 25/30 questions | Running accuracy: 100.0%\nCompleted 26/30 questions | Running accuracy: 100.0%\nCompleted 27/30 questions | Running accuracy: 100.0%\nCompleted 28/30 questions | Running accuracy: 100.0%\nCompleted 29/30 questions | Running accuracy: 100.0%\nCompleted 30/30 questions | Running accuracy: 100.0%\n\n============================================================\nEVALUATION RESULTS\n============================================================\nOverall accuracy: 100.00% (30.0/30)\nMultiple-choice questions: 100.00% accuracy (30/30)\nAverage MC confidence: 1.00\nTotal processing time: 154.77 seconds\n============================================================\n\nDetailed results saved to: results_llama70_20251122_235005.json\n",
+      "stderr": "",
+      "runtime_seconds": 155.71261191368103,
+      "returncode": 0
+    },
+    {
+      "model": "oss120",
+      "success": true,
+      "stdout": "Testing model: oss120 (oss120)\nGrading with: llama3.2 (llama3.2:latest)\nParallel workers: 1\n\nTesting server connectivity...\nChecking connectivity to test model (oss120)... \u2713 OK\nChecking connectivity to grader model (llama3.2)... \u2713 OK\nAll servers are reachable. Proceeding with evaluation...\n\nRequested 30 questions, but dataset only has 30. Using all questions.\nAuto-detected question format: mc\n\nProcessing 30 questions sequentially...\nThis may take some time. Each model call has built-in retries and waiting.\nCompleted 1/30 questions | Running accuracy: 100.0%\nCompleted 2/30 questions | Running accuracy: 100.0%\nCompleted 3/30 questions | Running accuracy: 100.0%\nCompleted 4/30 questions | Running accuracy: 100.0%\nCompleted 5/30 questions | Running accuracy: 100.0%\nCompleted 6/30 questions | Running accuracy: 100.0%\nCompleted 7/30 questions | Running accuracy: 100.0%\nCompleted 8/30 questions | Running accuracy: 100.0%\nCompleted 9/30 questions | Running accuracy: 100.0%\nCompleted 10/30 questions | Running accuracy: 100.0%\nCompleted 11/30 questions | Running accuracy: 100.0%\nCompleted 12/30 questions | Running accuracy: 100.0%\nCompleted 13/30 questions | Running accuracy: 100.0%\nCompleted 14/30 questions | Running accuracy: 100.0%\nCompleted 15/30 questions | Running accuracy: 100.0%\nCompleted 16/30 questions | Running accuracy: 100.0%\nCompleted 17/30 questions | Running accuracy: 100.0%\nCompleted 18/30 questions | Running accuracy: 100.0%\nCompleted 19/30 questions | Running accuracy: 100.0%\nCompleted 20/30 questions | Running accuracy: 100.0%\nCompleted 21/30 questions | Running accuracy: 100.0%\nCompleted 22/30 questions | Running accuracy: 100.0%\nCompleted 23/30 questions | Running accuracy: 100.0%\nCompleted 24/30 questions | Running accuracy: 100.0%\nCompleted 25/30 questions | Running accuracy: 100.0%\nCompleted 26/30 questions | Running accuracy: 100.0%\nCompleted 27/30 questions | Running accuracy: 100.0%\nCompleted 28/30 questions | Running accuracy: 100.0%\nCompleted 29/30 questions | Running accuracy: 100.0%\nCompleted 30/30 questions | Running accuracy: 100.0%\n\n============================================================\nEVALUATION RESULTS\n============================================================\nOverall accuracy: 100.00% (30.0/30)\nMultiple-choice questions: 100.00% accuracy (30/30)\nAverage MC confidence: 1.00\nTotal processing time: 170.72 seconds\n============================================================\n\nDetailed results saved to: results_oss120_20251122_235258.json\n",
+      "stderr": "",
+      "runtime_seconds": 172.7854688167572,
+      "returncode": 0
+    },
+    {
+      "model": "gemma2",
+      "success": true,
+      "stdout": "Testing model: gemma2 (gemma2:2b)\nGrading with: llama3.2 (llama3.2:latest)\nParallel workers: 1\n\nTesting server connectivity...\nChecking connectivity to test model (gemma2)... \u2713 OK\nChecking connectivity to grader model (llama3.2)... \u2713 OK\nAll servers are reachable. Proceeding with evaluation...\n\nRequested 30 questions, but dataset only has 30. Using all questions.\nAuto-detected question format: mc\n\nProcessing 30 questions sequentially...\nThis may take some time. Each model call has built-in retries and waiting.\nCompleted 1/30 questions | Running accuracy: 100.0%\nCompleted 2/30 questions | Running accuracy: 100.0%\nCompleted 3/30 questions | Running accuracy: 100.0%\nCompleted 4/30 questions | Running accuracy: 100.0%\nCompleted 5/30 questions | Running accuracy: 100.0%\nCompleted 6/30 questions | Running accuracy: 100.0%\nCompleted 7/30 questions | Running accuracy: 100.0%\nCompleted 8/30 questions | Running accuracy: 100.0%\nCompleted 9/30 questions | Running accuracy: 100.0%\nCompleted 10/30 questions | Running accuracy: 100.0%\nCompleted 11/30 questions | Running accuracy: 100.0%\nCompleted 12/30 questions | Running accuracy: 100.0%\nCompleted 13/30 questions | Running accuracy: 100.0%\nCompleted 14/30 questions | Running accuracy: 100.0%\nCompleted 15/30 questions | Running accuracy: 100.0%\nCompleted 16/30 questions | Running accuracy: 100.0%\nCompleted 17/30 questions | Running accuracy: 100.0%\nCompleted 18/30 questions | Running accuracy: 100.0%\nCompleted 19/30 questions | Running accuracy: 100.0%\nCompleted 20/30 questions | Running accuracy: 100.0%\nCompleted 21/30 questions | Running accuracy: 100.0%\nCompleted 22/30 questions | Running accuracy: 100.0%\nCompleted 23/30 questions | Running accuracy: 100.0%\nCompleted 24/30 questions | Running accuracy: 100.0%\nCompleted 25/30 questions | Running accuracy: 100.0%\nCompleted 26/30 questions | Running accuracy: 100.0%\nCompleted 27/30 questions | Running accuracy: 100.0%\nCompleted 28/30 questions | Running accuracy: 100.0%\nCompleted 29/30 questions | Running accuracy: 100.0%\nCompleted 30/30 questions | Running accuracy: 100.0%\n\n============================================================\nEVALUATION RESULTS\n============================================================\nOverall accuracy: 100.00% (30.0/30)\nMultiple-choice questions: 100.00% accuracy (30/30)\nAverage MC confidence: 1.00\nTotal processing time: 242.16 seconds\n============================================================\n\nDetailed results saved to: results_gemma2_20251122_235702.json\n",
+      "stderr": "",
+      "runtime_seconds": 244.48715496063232,
+      "returncode": 0
+    },
+    {
+      "model": "llama3.2",
+      "success": true,
+      "stdout": "Testing model: llama3.2 (llama3.2:latest)\nGrading with: llama3.2 (llama3.2:latest)\nParallel workers: 1\n\nTesting server connectivity...\nChecking connectivity to test model (llama3.2)... \u2713 OK\nChecking connectivity to grader model (llama3.2)... \u2713 OK\nAll servers are reachable. Proceeding with evaluation...\n\nRequested 30 questions, but dataset only has 30. Using all questions.\nAuto-detected question format: mc\n\nProcessing 30 questions sequentially...\nThis may take some time. Each model call has built-in retries and waiting.\nCompleted 1/30 questions | Running accuracy: 100.0%\nCompleted 2/30 questions | Running accuracy: 100.0%\nCompleted 3/30 questions | Running accuracy: 100.0%\nCompleted 4/30 questions | Running accuracy: 100.0%\nCompleted 5/30 questions | Running accuracy: 100.0%\nCompleted 6/30 questions | Running accuracy: 100.0%\nCompleted 7/30 questions | Running accuracy: 100.0%\nCompleted 8/30 questions | Running accuracy: 100.0%\nCompleted 9/30 questions | Running accuracy: 100.0%\nCompleted 10/30 questions | Running accuracy: 100.0%\nCompleted 11/30 questions | Running accuracy: 100.0%\nCompleted 12/30 questions | Running accuracy: 100.0%\nCompleted 13/30 questions | Running accuracy: 100.0%\nCompleted 14/30 questions | Running accuracy: 100.0%\nCompleted 15/30 questions | Running accuracy: 100.0%\nCompleted 16/30 questions | Running accuracy: 100.0%\nCompleted 17/30 questions | Running accuracy: 100.0%\nCompleted 18/30 questions | Running accuracy: 100.0%\nCompleted 19/30 questions | Running accuracy: 100.0%\nCompleted 20/30 questions | Running accuracy: 100.0%\nCompleted 21/30 questions | Running accuracy: 100.0%\nCompleted 22/30 questions | Running accuracy: 100.0%\nCompleted 23/30 questions | Running accuracy: 100.0%\nCompleted 24/30 questions | Running accuracy: 100.0%\nCompleted 25/30 questions | Running accuracy: 100.0%\nCompleted 26/30 questions | Running accuracy: 100.0%\nCompleted 27/30 questions | Running accuracy: 100.0%\nCompleted 28/30 questions | Running accuracy: 100.0%\nCompleted 29/30 questions | Running accuracy: 100.0%\nCompleted 30/30 questions | Running accuracy: 100.0%\n\nFixed 3 scoring inconsistencies.\n\n============================================================\nEVALUATION RESULTS\n============================================================\nOverall accuracy: 90.00% (27.0/30)\nMultiple-choice questions: 90.00% accuracy (27/30)\nAverage MC confidence: 0.99\nTotal processing time: 304.08 seconds\n============================================================\n\nDetailed results saved to: results_llama3.2_20251123_000214.json\n",
+      "stderr": "",
+      "runtime_seconds": 311.21177887916565,
+      "returncode": 0
+    }
+  ]
+}
